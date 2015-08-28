@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/help_close_hint_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:padding="10dp"
+        android:src="@drawable/icn_close_hint" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/help_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent" >
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/indicator_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/first_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/help_indicator_selector" 
+            android:layout_marginRight="1dp"
+            android:layout_marginEnd="1dp"/>
+
+        <ImageView
+            android:layout_marginLeft="1dp"
+            android:layout_marginStart="1dp"
+            android:id="@+id/second_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/help_indicator_selector" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/help_add_reviews_button"
+            style="@style/menu_button_style"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icn_menu_addreview_hint"
+            android:gravity="center"
+            android:text="@string/add_review_text"
+            android:textColor="@android:color/white" />
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/help_add_photos_button"
+            style="@style/menu_button_style"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/icn_menu_addphoto_hint"
+            android:gravity="center"
+            android:text="@string/add_photo_text"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/help_layout.xml -->

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="oval">
+    <solid android:color="#d3d3d3" />
+    <size
+        android:height="@dimen/interest_circle_size"
+        android:width="@dimen/interest_circle_size" />
+</shape><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/drawable/interest_circle.xml -->

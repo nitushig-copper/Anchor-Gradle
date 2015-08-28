@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/build/intermediates/exploded-aar/Demo_new/facebookSDK/unspecified/res/values-mdpi/values-mdpi.xml -->
+    <eat-comment/>
+    <dimen name="com_facebook_picker_divider_width">1px</dimen>
+    <!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/values-mdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="link_btn_margin_top">20dp</dimen>
+    <dimen name="map_height_on_bar_detail">70dp</dimen>
+    <dimen name="mutlidirection_drw_height">310dp</dimen>
+</resources>

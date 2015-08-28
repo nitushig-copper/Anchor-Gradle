@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anchor_app_bg"
+    android:overScrollMode="never"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <com.atn.app.component.MyTextView
+            android:visibility="gone"
+            android:id="@+id/my_interest_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@drawable/account_row_selector"
+            android:drawableEnd="@drawable/icn_arrow_happening"
+            android:drawableRight="@drawable/icn_arrow_happening"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/my_interest_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seperator_height"
+            android:background="@color/list_view_divider" />
+
+        <com.atn.app.component.MyCheckBox
+            android:id="@+id/receive_notification_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@android:color/white"
+            android:button="@null"
+            android:drawableRight="@drawable/checkbox_selector"
+            android:drawableEnd="@drawable/checkbox_selector"
+            android:paddingLeft="@dimen/edit_text_padding_left"
+            android:paddingRight="@dimen/edit_text_padding_left"
+            android:text="@string/receive_notification"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seperator_height"
+            android:background="@color/list_view_divider" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/receive_pushnotification_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@drawable/account_row_selector"
+            android:drawableEnd="@drawable/icn_arrow_happening"
+            android:drawableRight="@drawable/icn_arrow_happening"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/push_notification_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seperator_height"
+            android:background="@color/list_view_divider" />
+
+        <com.atn.app.component.MyTextView
+            android:visibility="gone"
+            android:id="@+id/about_anchor_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@drawable/account_row_selector"
+            android:drawableEnd="@drawable/icn_arrow_happening"
+            android:drawableRight="@drawable/icn_arrow_happening"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/about_anchor_text"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seperator_height"
+            android:background="@color/list_view_divider" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/contact_anchor_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@drawable/account_row_selector"
+            android:drawableEnd="@drawable/icn_arrow_happening"
+            android:drawableRight="@drawable/icn_arrow_happening"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/contact_atn_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seperator_height"
+            android:background="@color/list_view_divider" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/term_and_condition_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@drawable/account_row_selector"
+            android:drawableEnd="@drawable/icn_arrow_happening"
+            android:drawableRight="@drawable/icn_arrow_happening"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/terms_and_conditions"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/seperator_height"
+            android:background="@color/list_view_divider" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/account_detail_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/anchor_account_row_height"
+            android:background="@drawable/account_row_selector"
+            android:drawableEnd="@drawable/icn_arrow_happening"
+            android:drawableRight="@drawable/icn_arrow_happening"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/account_detail_title"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/account_row_text_size"
+            custom:customFont="robotoMedium" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/account_main_fragment.xml -->

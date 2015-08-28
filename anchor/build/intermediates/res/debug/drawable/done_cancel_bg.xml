@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <stroke
+        android:width="2dp"
+        android:color="@color/tag_unselected" />
+
+</shape><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/drawable/done_cancel_bg.xml -->

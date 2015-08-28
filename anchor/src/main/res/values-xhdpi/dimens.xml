@@ -1,0 +1,7 @@
+<resources>
+
+    <dimen name="map_height_on_bar_detail">90dp</dimen>
+    <dimen name="link_btn_margin_top">40dp</dimen>
+    <dimen name="mutlidirection_drw_height">330dp</dimen>
+
+</resources>

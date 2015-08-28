@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/map_framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/map_filter_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/map_filter_button_height"
+        android:layout_gravity="bottom"
+        android:background="@color/filter_bg" >
+
+        <com.atn.app.component.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/icn_filter"
+            android:drawablePadding="5dp"
+            android:text="@string/filter_button_text"
+            android:textColor="@android:color/white" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/img_current_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|bottom|start"
+        android:layout_marginBottom="@dimen/map_filter_button_height"
+        android:background="@null"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:src="@drawable/my_loc_map_button_selector" />
+
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/map_fragment.xml -->

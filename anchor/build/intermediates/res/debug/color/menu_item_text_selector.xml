@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_selected="true" android:color="#48C986"/>
+    <item android:state_pressed="true" android:color="#48C986"/>
+    <item android:color="#8A8A8A"/>
+
+</selector><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/color/menu_item_text_selector.xml -->

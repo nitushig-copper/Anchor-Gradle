@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-25b17f1782f49503f88aa0b0804b2797e22f07e4.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-4c3ccee0861f8b331b67d88fc52c8a8a0da51aee.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-357e902b42e1e4678fb4330727a35ea2c0421dc0.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-ba316c01a30bd9fa64b3cdb326b6c96bcdfb6d6b.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\android-support-v7-palette.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0d8be977fd907b3d0f58dd3260d075b32a583d09">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\android-support-v7-palette-2f6811f7b60f18a48ada5e145ee3447a37dac6c2.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-e8a0a9efd288f0e696c52991128bf0e26ca6069f.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\Demo_new\facebookSDK\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d65d0470404d347676444775b3a5a38d29c3b9f7">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-3d7e2413128776da643a2ce3e3af47559964fef9.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\picasso-2.3.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b646ddbdac8a33fc45b64564011da81d23e4635">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\picasso-2.3.4-195ae2bce6b60436ee1c0002aa16e30192578372.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-f5a54359819f356a39156cf393ec046a9b73f88b.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-dd3504f5721f01e0daa4936a5dba8a5109d99e64.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-d6f52188973593276b8c5030c6db4002b9b83a17.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-5312ee40693797e088cf2522c1df9930b20b644c.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-0899204251231de52423acad6d1b43467f346298.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-8d8c6b4498d1ddfe2a4def71a750ca27069ea217.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9b8f8c6bffdb2ecf68d488704e8ddd2684f0a508">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview-26ae04f661df14d342eb99ce8dc2ab4460b397ac.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\adt_bundle\sdk\build-tools\22.0.1\renderscript\lib\renderscript-v8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2b276904cd854be6d460f2bcec9cf2cddaf580c1">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\renderscript-v8-dd2ea9c57d79155d5d7c5a2552c52d7c3effa494.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\httpclient-4.3.1-5fd31539860ba217cecbfa8c617e10d5f99e9c48.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\httpmime-4.3.1-0eae90078ac3be2ad25ee43063e2238c77af0676.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-8bf9c8cd9e6c314eb312a6821a2ad659517e21ae.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\httpcore-4.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\httpcore-4.3-29513a1b25fa0bc227789e6f821be68ab950ee00.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\18.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dafab6ae358e6c801605d50ff1fa761e77200c1a">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-cb2db8fb075c68fc1f076ae8caf150fe14d7d8e6.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-5d1d51679b2cbce01ec7b68ef6cd665137869e91.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-b0fee3163504d3197e2c771c27807356578853b7.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\libs\crashlytics.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b8189e9eef2f07fae743e05d7fe7e69daebe98d1">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\crashlytics-064b564d8e5983d339ac625a80ca3dd8871ca518.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-f3487c196cab7d54194c260ecb19bf3522d9e40a.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-85481085fb4def70fb79fd704358ee4806407a7c.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-5e18f2195e548d7082e5d0cecd3595f8ccac3f01.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-18b6e79291dbb097d953530a6c7dae35fe4d6e0a.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-f427a7a61f8b197306f9efefef3fb8d95a52c237.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\Demo_new\facebookSDK\unspecified\jars\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-446aeaa0d9f778e2dff48fe2bceb828a61bd8a19.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-f61b8437b25aae8978472015811bdcc17c8df324.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-a36b11a2818686ae5f24205633c97e18d3678dd2.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\adt_bundle\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-289ce1a457027030248d6d928f34a34b0a8ca692.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-c44048d21b992ad22d9d177f57515b3602e89b57.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-fa2a32fc7202879ef4c549bdb0db4afca09467c8.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\classes-c3b6e3a67e5cee2c8c15011c15c631330778f8cb.jar" />
+    </item>
+    <item
+        jar="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\yadavendra\IDE\Android\workspace\Demo_new\anchor\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-50741e70a75cffa2c5291c7c69b6b718a40ccc54.jar" />
+    </item>
+
+</items>

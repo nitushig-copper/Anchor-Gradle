@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/img_venue_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/new_media_height"
+        android:scaleType="centerCrop" />
+
+    <com.atn.app.component.TrackingListView
+        android:id="@+id/lst_venue_offer_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@null"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <FrameLayout
+        android:id="@+id/bar_detail_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/blank_view"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Space
+                android:id="@+id/conatiner_space"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/new_media_height"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_goto_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" 
+                android:layout_below="@id/conatiner_space"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:src="@drawable/icn_gotolocation_venuedetails" />
+
+            <com.atn.app.component.MyTextView
+                android:id="@+id/txt_venue_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/conatiner_space"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:paddingLeft="10dp"
+                android:text="@string/bar_address"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                custom:customFont="robotoCondensedLight" />
+
+            <com.atn.app.component.MyTextView
+                android:id="@+id/txt_venue_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_venue_address"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/icn_call_venuedetails"
+                android:drawablePadding="5dp"
+                android:paddingLeft="10dp"
+                android:text="@string/bar_contact_number"
+                android:textColor="@android:color/white"
+                custom:customFont="robotoCondensedBold" />
+
+            <com.atn.app.component.MyTextView
+                android:id="@+id/current_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_venue_phone"
+                android:background="#EBEBEB"
+                android:padding="10dp"
+                android:text="@string/current_offer_title"
+                android:textColor="@android:color/black"
+                custom:customFont="robotoCondensedBolItalic" />
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/bar_details_fragment.xml -->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="VENUE_ID" type="id"/>
+    <item name="IS_REGISTERED_VENUE" type="id"/>
+    <item name="MEDIA_ID" type="id"/>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" >
+
+        <ImageView
+            android:id="@+id/tip_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/tips_title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="fdklsfjdlsjflkf"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            custom:customFont="robotoCondensedBold" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/tips_detail_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tips_title_text_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="fdklsfjdlsjflkf"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            custom:customFont="robotoCondensedLight" />
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/tips_share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/tip_share_bg"
+            android:drawableLeft="@drawable/icn_actionbar_share"
+            android:padding="10dp"
+            android:text="@string/share_bar"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/start_time_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tip_image"
+            android:background="@android:color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <com.atn.app.component.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_txt"
+                android:textColor="@android:color/black"
+                custom:customFont="robotoCondensedLight" />
+
+            <com.atn.app.component.MyTextView
+                android:id="@+id/start_time_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/start_txt"
+                android:textColor="@android:color/black"
+                custom:customFont="robotoCondensedBolItalic" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/seperator_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_time_container"
+            android:background="@android:color/white" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/list_view_divider" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/end_time_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seperator_view"
+            android:background="@drawable/tip_end_time_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <com.atn.app.component.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/end_txt"
+                android:textColor="@android:color/black"
+                custom:customFont="robotoCondensedLight" />
+
+            <com.atn.app.component.MyTextView
+                android:id="@+id/end_time_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/end_txt"
+                android:textColor="@android:color/black"
+                custom:customFont="robotoCondensedBolItalic" />
+        </LinearLayout>
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/end_time_container"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/icn_close_tipdetail"
+            android:text="@string/close_button"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/tips_dialog_layout.xml -->

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/icn_menu_pagination_active" android:state_selected="true"/>
+    <item android:drawable="@drawable/icn_menu_pagination_inactive"/>
+
+</selector><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/drawable/help_indicator_selector.xml -->

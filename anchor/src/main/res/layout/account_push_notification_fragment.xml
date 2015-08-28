@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anchor_app_bg"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <com.atn.app.component.MyCheckBox
+        android:id="@+id/push_notification_check_box"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/anchor_account_row_height"
+        android:background="@android:color/white"
+        android:button="@null"
+        android:drawableRight="@drawable/checkbox_selector"
+        android:drawableEnd="@drawable/checkbox_selector" 
+        android:paddingLeft="@dimen/edit_text_padding_left"
+        android:paddingRight="@dimen/edit_text_padding_left"
+        android:text="@string/from_all_venue"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/account_row_text_size"
+        custom:customFont="robotoMedium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_height"
+        android:background="@color/list_view_divider" />
+
+    <com.atn.app.component.MyTextView
+        android:id="@+id/txt_venue_i_choose"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/anchor_account_row_height"
+        android:background="@drawable/account_row_selector"
+        android:drawableEnd="@drawable/icn_arrow_happening"
+        android:drawableRight="@drawable/icn_arrow_happening"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/venue_i_choose"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/account_row_text_size"
+        custom:customFont="robotoMedium" />
+
+</LinearLayout>

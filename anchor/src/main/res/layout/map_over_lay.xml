@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000" >
+
+    <RelativeLayout
+        android:id="@+id/white_bubble_container"
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp" >
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/venuedetail_popup_whitebubble" >
+        </ImageView>
+        
+        <include
+        android:id="@+id/atn_bar_view"
+        android:layout_width="@dimen/atn_map_pin_width"
+        android:layout_height="@dimen/atn_map_pin_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:visibility="gone"
+        layout="@layout/atn_bar_item" />
+
+    <include
+        android:id="@+id/non_atn_view"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        layout="@layout/non_atn_map_pin"
+        android:visibility="invisible" />
+        
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/bar_name_text_view"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="Demo"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            
+            custom:customFont="robotoCondensedBold" >
+        </com.atn.app.component.MyTextView>
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/bar_address_text_view"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bar_name_text_view"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:text="addresss"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" >
+        </com.atn.app.component.MyTextView>
+
+        <ImageButton
+            android:visibility="invisible"
+            android:background="@null"
+            android:id="@+id/venue_popup_dismiss_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/venuedetail_popup_close" />
+
+        <ImageButton
+            android:visibility="invisible"
+            android:background="@null"
+            android:id="@+id/venue_popup_open_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/venuedetail_popup_next" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/atn_bar_view1"
+        android:layout_width="@dimen/atn_map_pin_width"
+        android:layout_height="@dimen/atn_map_pin_height"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        layout="@layout/atn_bar_item" />
+
+    <include
+        android:id="@+id/non_atn_view1"
+        android:layout_width="@dimen/non_atn_bar_image_size"
+        android:layout_height="@dimen/non_atn_bar_image_size"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        layout="@layout/non_atn_map_pin"
+         />
+
+</FrameLayout>

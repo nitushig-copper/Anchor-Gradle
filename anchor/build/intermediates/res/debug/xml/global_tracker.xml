@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">300</integer>
+   
+     <!-- Replace placeholder ID with your tracking ID     UA-52627860-1-->
+    <string name="ga_trackingId">UA-52627860-1</string>
+    <!-- Enable automatic activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <!-- Enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+	<string name="ga_sampleFrequency">100.0</string>
+    
+</resources><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/xml/global_tracker.xml -->

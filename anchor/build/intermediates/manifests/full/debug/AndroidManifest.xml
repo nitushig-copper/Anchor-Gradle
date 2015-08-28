@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.atn.app"
+    android:versionCode="8"
+    android:versionName="1.9" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="21" />
+
+    <permission
+        android:name="com.atn.app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.atn.app.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <permission
+        android:name="com.atn.app.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.atn.app.permission.C2D_MESSAGE" />
+
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:name="com.atn.app.AtnApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Goolge play service version -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Goolge API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBgujsAvRafGIpvnWjlW2i3qgafnMd4kJo" />
+        <!-- Nitushi, android:value="AIzaSyCbmWea-bvV44GehWagwUilA090SfhzB2I" /> -->
+        <!-- Mohar, android:value="AIzaSyD-JcohhCqTh73uYeBj87OEq2g-tIuEeX8" /> -->
+
+
+        <!-- Facebook application Id -->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <!--
+            meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="9e62a5d60c755e4cb2f001471fed40a22ffb9bfe"/
+        -->
+
+        <activity
+            android:name="com.facebook.LoginActivity"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="com.atn.app.activities.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleTheme"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.atn.app.activities.TermsAndCondition"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.atn.app.activities.ForgetPassword"
+            android:label="@string/forgot_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.atn.app.activities.OpenFourSquareUrlActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.atn.app.activities.MainMenuActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/icn_actionbar_applogo"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <!-- this activity is deprecated due new app look -->
+
+        <activity android:name="com.atn.app.facebook.FacebookAppSec" />
+
+        <receiver
+            android:name="com.atn.app.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.atn.app" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.atn.app.gcm.GcmIntentService" />
+        <service android:name="com.atn.app.service.SynchService" />
+
+        <provider
+            android:name="com.atn.app.provider.AtnProvider"
+            android:authorities="com.atn.app.ATN"
+            android:exported="false" >
+        </provider>
+
+        <!-- Anchor stuff -->
+
+        <activity
+            android:name="com.atn.app.activities.CreateProfileActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.atn.app.crop.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.atn.app.activities.ChooseInterest"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleTheme" />
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <receiver
+            android:name="com.google.android.gms.wallet.EnableWalletOptimizationReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/relative_atn_venue_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/img_atn_venue_image"
+                android:layout_width="@dimen/tips_bar_image_size"
+                android:layout_height="@dimen/tips_bar_image_size"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop" />
+
+            <ImageView
+                android:id="@+id/img_atn_venue_image_over_lay"
+                android:layout_width="@dimen/tips_bar_image_size"
+                android:layout_height="@dimen/tips_bar_image_size"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_round_mask" />
+
+            <ImageView
+                android:id="@+id/img_atn_venue_direction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icn_gotolocation_following" />
+
+            <com.atn.app.component.MyTextView
+                android:id="@+id/txt_atn_venue_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toLeftOf="@+id/img_atn_venue_direction"
+                android:layout_toRightOf="@+id/img_atn_venue_image"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lines="1"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:text="Medium Text"
+                android:textColor="@color/text_bar_name_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="bottom"
+            android:background="@color/list_view_divider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tips_row_bg"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="54" >
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="10"
+                android:background="@android:color/white"
+                android:contentDescription="@null"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="1" >
+            </View>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="10"
+                android:background="@android:color/white"
+                android:contentDescription="@null"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="1" >
+            </View>
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="10"
+                android:background="@android:color/white"
+                android:contentDescription="@null"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="1" >
+            </View>
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="10"
+                android:background="@android:color/white"
+                android:contentDescription="@null"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="1" >
+            </View>
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/four_square_img_height_inrow"
+                android:layout_weight="10"
+                android:background="@android:color/white"
+                android:cropToPadding="true"
+                android:padding="2dp"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/list_view_divider" />
+
+    <FrameLayout
+        android:id="@+id/content_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/touch_bg" />
+
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/bar_with_images_row_layout.xml -->

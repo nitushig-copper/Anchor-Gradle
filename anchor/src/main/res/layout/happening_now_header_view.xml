@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/anchor_app_bg"
+    android:orientation="horizontal"
+    android:weightSum="101" >
+
+    <RelativeLayout
+        android:id="@+id/happening_now_header_most_recent_view_rl"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50" >
+
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/happening_now_most_recent_btn"
+            style="@style/menu_button_style"
+            android:layout_above="@+id/happening_now_most_recent_bottom_view"
+            android:text="@string/happening_now_most_recent" />
+        
+       
+
+        <View
+            android:id="@+id/happening_now_most_recent_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/list_view_divider" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="@dimen/seperator_height"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/list_view_divider" />
+
+    <RelativeLayout
+        android:id="@+id/happening_now_header_near_by_view_rl"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:orientation="vertical" >
+
+         <com.atn.app.component.MyButton
+            android:id="@+id/happening_now_near_by_btn"
+            style="@style/menu_button_style"
+            android:layout_above="@+id/happening_now_near_by_bottom_view"
+            android:text="@string/happening_now_near_by" />
+        
+        <View
+            android:id="@+id/happening_now_near_by_bottom_view"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/list_view_divider" />
+    </RelativeLayout>
+
+</LinearLayout>

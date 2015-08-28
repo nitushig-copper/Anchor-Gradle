@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/filter_top_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/map_filter_button_height"
+    android:background="@color/filter_bg" >
+
+    <com.atn.app.component.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/icn_filter"
+        android:drawablePadding="5dp"
+        android:text="@string/filter_button_text"
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/close_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/map_filter_button_height"
+        android:layout_gravity="left"
+        android:background="@null"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/icn_close_filter" />
+
+    <com.atn.app.component.MyButton
+        android:id="@+id/category_done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/map_filter_button_height"
+        android:layout_gravity="right"
+        android:background="@null"
+        android:text="@string/done_title"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="link_btn_margin_top">150dp</dimen>
+    <dimen name="map_height_on_bar_detail">200dp</dimen>
+    <dimen name="mutlidirection_drw_height">450dp</dimen>
+    <integer name="grid_num_rows">4</integer>
+</resources>

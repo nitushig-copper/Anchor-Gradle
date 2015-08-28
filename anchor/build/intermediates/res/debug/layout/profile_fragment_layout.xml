@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anchor_app_bg" >
+
+    <com.atn.app.component.BlurImageView
+        android:id="@+id/user_pic_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_pic_height"
+        android:background="@null"
+        android:clickable="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_img_bg"
+        custom:defaultSrc="@drawable/user_img_holder"
+        custom:roundImagePosition="bottom" />
+
+    <View android:layout_width="match_parent" 
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/hash_tag_bg"/>
+    
+    <com.atn.app.component.TrackingScrollView
+        android:id="@+id/scroller_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:id="@+id/space_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/user_pic_height" />
+
+            <com.atn.app.component.REditText
+                android:id="@+id/user_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:hint="@string/user_name_title"
+                android:inputType="text"
+                android:paddingLeft="@dimen/edit_text_padding_left" />
+
+            <com.atn.app.component.REditText
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:hint="@string/email_address_hint"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="@dimen/edit_text_padding_left" />
+
+            <com.atn.app.component.REditText
+                android:id="@+id/password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:hint="@string/password_title"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/edit_text_padding_left" />
+
+            <com.atn.app.component.REditText
+                android:id="@+id/confirm_password_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:hint="@string/confirm_password_title"
+                android:inputType="textPassword"
+                android:paddingLeft="@dimen/edit_text_padding_left" />
+
+            <com.atn.app.component.REditText
+                android:id="@+id/location_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:hint="@string/location_title"
+                android:inputType="text"
+                android:paddingLeft="@dimen/edit_text_padding_left" />
+
+            <com.atn.app.component.REditText
+                android:id="@+id/gender_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:focusable="false"
+                android:hint="@string/gender_title"
+                android:inputType="text"
+                android:paddingLeft="@dimen/edit_text_padding_left" />
+
+            <com.atn.app.component.MyCheckBox
+                android:id="@+id/facebook_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:paddingLeft="@dimen/edit_text_padding_left"
+                android:paddingRight="@dimen/edit_text_padding_left"
+                android:text="@string/facebook_account_title"
+                android:textColor="#000000"
+                android:visibility="gone" />
+
+            <com.atn.app.component.MyCheckBox
+                android:id="@+id/instagram_checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cell"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:paddingLeft="@dimen/edit_text_padding_left"
+                android:paddingRight="@dimen/edit_text_padding_left"
+                android:text="@string/instagram_account_title"
+                android:textColor="#000000" />
+
+            <com.atn.app.component.MyButton
+                android:id="@+id/see_terms_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/terms_and_condition"
+                android:textColor="#363636"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </com.atn.app.component.TrackingScrollView>
+
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/profile_fragment_layout.xml -->

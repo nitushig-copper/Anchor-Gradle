@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="direction">
+        <enum name="rightToLeft" value="0" />
+        <enum name="bottomToTop" value="1" />
+        <enum name="leftToRight" value="2" />
+        <enum name="topToBottom" value="3" />
+    </attr>
+
+    <declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr name="handle" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="direction" />
+        <attr name="bottomOffset" format="dimension" />
+        <attr name="topOffset" format="dimension" />
+        <attr name="allowSingleTap" format="boolean" />
+        <attr name="animateOnClick" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="BlurImageView">
+        <attr name="defaultSrc" format="reference" />
+        <attr name="topLeftPadding" format="dimension" />
+        <attr name="roundImagePosition" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="left" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <attr name="cropImageStyle" format="reference" />
+
+    <declare-styleable name="CropImageView">
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="showThirds" format="boolean" />
+        <attr name="showHandles">
+            <enum name="changing" value="0" />
+            <enum name="always" value="1" />
+            <enum name="never" value="2" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomFontStyle">
+        <attr name="customFont" format="enum">
+            <enum name="robotoCondensed" value="0" />
+            <enum name="robotoCondensedLight" value="1" />
+            <enum name="robotoCondensedBolItalic" value="2" />
+            <enum name="robotoCondensedBold" value="3" />
+            <enum name="robotoMedium" value="4" />
+        </attr>
+    </declare-styleable>
+
+</resources>

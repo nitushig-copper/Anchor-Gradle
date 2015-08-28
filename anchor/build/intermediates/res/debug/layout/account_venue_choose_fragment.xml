@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lst_favorite_business"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_bg_light"
+    android:divider="@color/list_view_divider"
+    android:dividerHeight="1dp"
+    android:scrollbars="none" 
+    android:paddingTop="?attr/actionBarSize" />
+
+<!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/account_venue_choose_fragment.xml -->

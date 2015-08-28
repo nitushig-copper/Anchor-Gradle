@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/touch_bg" >
+
+    <TextView
+        android:id="@+id/txt_member_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="7dp"
+        android:text="ShermanRich"
+        android:textColor="#ff8000"
+        android:textStyle="bold"
+		android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txt_member_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_member_name"
+        android:layout_below="@+id/txt_member_name"
+        android:layout_marginTop="2dp"
+        android:paddingBottom="20dp"
+        android:textColor="#838790"
+        android:text="How is Storm's Bar?"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txt_comment_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txt_member_name"
+        android:layout_marginRight="10dp"
+        android:text="2 min ago"
+        android:textColor="#a7a7a7"
+		android:textSize="12sp" />
+
+</RelativeLayout>

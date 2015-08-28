@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" >
+
+        <ImageView
+            android:id="@+id/user_pic_image_view"
+            android:layout_width="@dimen/tips_bar_image_size"
+            android:layout_height="@dimen/tips_bar_image_size"
+            android:layout_centerVertical="true"
+            android:background="@android:color/white"
+            android:padding="2dp"
+            android:scaleType="centerCrop" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/venue_name_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/user_pic_image_view"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="Medium Text"
+            android:textColor="@color/text_bar_name_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/venue_distance_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/venue_name_text_view"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/user_pic_image_view"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:text="Medium Text"
+            android:textColor="@color/text_bar_name_color" />
+    </RelativeLayout>
+
+</FrameLayout>

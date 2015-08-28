@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anchor_app_bg"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <com.atn.app.component.MyTextView
+        android:id="@+id/near_by_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/list_view_divider"
+        android:gravity="center_vertical"
+        android:lines="1"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="@string/near_by_places"
+        android:textColor="@color/text_bar_name_color"
+        android:textStyle="bold" />
+
+    <ListView
+        android:layout_below="@+id/near_by_text_view"
+        android:id="@+id/search_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/list_view_divider"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/search_row_selector" >
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/venue_review_layout.xml -->

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="15dp"
+        android:text="@string/attachment_dialog_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/color_blue"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txt_title"
+        android:background="@color/color_blue" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_take_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/attachment_take_photo_title"
+            android:padding="15dp"
+            android:background="@drawable/touch_bg"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_grey"/>
+        
+        <TextView
+            android:id="@+id/txt_choose_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/attachment_choose_photo_title"
+            android:padding="15dp"
+            android:background="@drawable/touch_bg"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+         <View 
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_grey"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/attachment_dialog_cancel"
+            android:background="@drawable/touch_bg"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/loop_attachment_dialog.xml -->

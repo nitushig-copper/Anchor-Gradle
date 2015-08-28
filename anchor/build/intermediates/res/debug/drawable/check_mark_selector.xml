@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/icn_checkbox_filter_active" android:state_checked="true"/>
+    <item android:drawable="@drawable/icn_checkbox_filter"/>
+
+</selector><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/drawable/check_mark_selector.xml -->

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:id="@+id/bar_detail_top_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/new_media_height"
+            android:background="@android:color/transparent"
+            android:visibility="invisible" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <com.atn.app.component.MyTextView
+                android:visibility="gone"
+                android:id="@+id/first_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_marginEnd="2dp"
+                android:background="@drawable/popular_tag_backgound"
+                android:padding="5dp"
+                android:text="Cool Music"
+                android:textColor="@color/light_green_text_color" />
+
+            <com.atn.app.component.MyTextView
+                android:visibility="gone"
+                android:id="@+id/second_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:background="@drawable/popular_tag_backgound"
+                android:padding="5dp"
+                android:text="Awesome Dood"
+                android:textColor="@color/light_green_text_color" />
+        </LinearLayout>
+
+        <com.atn.app.component.MyTextView
+            android:id="@+id/review_count_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 REVIEW"
+            android:textColor="@color/filter_bg"
+            android:textSize="16sp" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:isIndicator="true"
+            android:progressDrawable="@drawable/anchor_rating_bar" />
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/add_review_button_on_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/map_filter_button_height"
+            android:background="@drawable/blue_bg"
+            android:gravity="center"
+            android:text="@string/add_review_button"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            custom:customFont="robotoCondensedBold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/google_static_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:id="@+id/open_map_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:src="@drawable/icn_map_location" />
+
+             <ImageButton
+                android:id="@+id/open_four_web_view_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:background="@drawable/touch_bg"
+                android:padding="5dp"
+                android:src="@drawable/icn_4square" />
+            
+            <View
+                android:id="@+id/blue_view"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/blue_bg" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal" >
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/yes_button"
+                    android:layout_width="@dimen/white_circle_button_size"
+                    android:layout_height="@dimen/white_circle_button_size"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/yes_no_button_bg"
+                    android:text="@string/yes_button"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:visibility="invisible"
+                    custom:customFont="robotoCondensedBold" />
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/no_button"
+                    android:layout_width="@dimen/white_circle_button_size"
+                    android:layout_height="@dimen/white_circle_button_size"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/yes_no_button_bg"
+                    android:text="@string/no_button"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:visibility="invisible"
+                    custom:customFont="robotoCondensedBold" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.atn.app.component.MyTextView
+        android:id="@+id/comment_count_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|start"
+        android:background="@null"
+        android:drawableLeft="@drawable/icn_message"
+        android:drawableStart="@drawable/icn_message" 
+        android:drawablePadding="2dp"
+        android:gravity="center"
+        android:textColor="@color/light_green_text_color" />
+
+    <FrameLayout
+        android:id="@+id/comment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+    
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/venue_detail_layout.xml -->

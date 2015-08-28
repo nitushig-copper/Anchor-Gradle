@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="64dp"
+    android:layout_height="44dp"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:textColor="@android:color/white" >
+
+</TextView><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/text_view.xml -->

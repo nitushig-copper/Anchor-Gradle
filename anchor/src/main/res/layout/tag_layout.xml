@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:layout_marginBottom="30dp">
+
+    <com.atn.app.component.MyButton
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/tag_count_button"
+        android:layout_width="@dimen/white_circle_button_size"
+        android:layout_height="@dimen/white_circle_button_size"
+        android:background="@drawable/tag_button_selector"
+        android:text="100"
+        android:textColor="@color/tag_text_color"
+        custom:customFont="robotoCondensedLight" />
+
+    <com.atn.app.component.MyTextView
+        android:gravity="center"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:id="@+id/tag_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="Cool Music"
+        android:textColor="@android:color/white"
+        custom:customFont="robotoCondensedBold" />
+
+</LinearLayout>

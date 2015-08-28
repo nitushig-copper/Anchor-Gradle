@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/search_menu_itme"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search_menu_item_title"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/refresh_menu_item"
+        android:icon="@drawable/icn_actionbar_refresh"
+        android:title="@string/refresh_menu_item_title"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/main_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:background="@android:color/white"
+        android:clickable="true" >
+
+        <com.atn.app.component.BlurImageView
+            android:id="@+id/user_pic_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_pic_height"
+            android:background="@null"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_img_bg"
+            custom:defaultSrc="@drawable/user_img_holder"
+            custom:roundImagePosition="top"
+            custom:topLeftPadding="10dp" />
+
+        <ScrollView
+            android:id="@+id/scroll_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/add_review_button_container"
+            android:layout_below="@id/user_pic_image_view" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.atn.app.component.MyButton
+                    android:visibility="gone"
+                    android:id="@+id/my_inetrest_button"
+                    style="@style/menu_button_style"
+                    android:text="@string/my_interest_text_menu" />
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/expore_button"
+                    style="@style/menu_button_style"
+                    android:text="@string/expore_text" />
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/happening_now_button"
+                    style="@style/menu_button_style"
+                    android:text="@string/happaning_now_text" />
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/following_button"
+                    style="@style/menu_button_style"
+                    android:text="@string/following_text" />
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/tips_button"
+                    style="@style/menu_button_style"
+                    android:text="@string/tips_text" />
+
+                <com.atn.app.component.MyButton
+                    android:id="@+id/account_button"
+                    style="@style/menu_button_style"
+                    android:text="@string/account_text" />
+            </LinearLayout>
+        </ScrollView>
+
+        <com.atn.app.component.MyButton
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/scroll_container"
+            android:background="#66FFFFFF"
+            android:drawableLeft="@drawable/icn_menu_search"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/icn_menu_search"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="@dimen/menu_button_padding_left"
+            android:paddingStart="@dimen/menu_button_padding_left"
+            android:text="@string/search_venue_title"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <View
+            android:id="@+id/button_divider"
+            android:layout_width="1dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/menu_button_pressed" />
+
+        <LinearLayout
+            android:id="@+id/add_review_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <com.atn.app.component.MyButton
+                android:id="@+id/add_reviews_button"
+                style="@style/menu_button_style"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icn_menu_addreview"
+                android:drawableStart="@drawable/icn_menu_addreview"
+                android:gravity="center"
+                android:text="@string/add_review_text" />
+
+            <com.atn.app.component.MyButton
+                android:id="@+id/add_photos_button"
+                style="@style/menu_button_style"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/icn_menu_addphoto"
+                android:drawableStart="@drawable/icn_menu_addphoto"
+                android:gravity="center"
+                android:text="@string/add_photo_text" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/menu_layout_activity.xml -->

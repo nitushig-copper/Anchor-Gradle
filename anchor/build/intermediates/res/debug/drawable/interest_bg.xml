@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/bg_login"/>
+    <item android:drawable="@drawable/interest_overlay_color"/>
+
+</layer-list><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/drawable/interest_bg.xml -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_gps_active" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_gps_active" android:state_pressed="true"/>
+    <item android:drawable="@drawable/ic_gps_active" android:state_focused="true"/>
+    <item android:drawable="@drawable/ic_gps_active" />
+    
+
+</selector><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/drawable/my_loc_map_button_selector.xml -->

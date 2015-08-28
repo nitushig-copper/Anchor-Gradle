@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings" >Settings</string>
+    <string name="about_atn_title">About Anchor</string>
+    <string name="user_name_title">User Name</string>
+    <string name="email_title">Email</string>
+    <string name="password_title">Password (min 6 characters)</string>
+    <string name="location_title">Location</string>
+    <string name="gender_title">Gender</string>
+    <string name="facebook_account_title">Facebook</string>
+    <string name="instagram_account_title">Instagram</string>
+    <string name="account_title">Account</string>
+    <string name="receive_notification">Receive Notifications</string>
+    <string name="from_all_venue">From All Venues</string>
+    <string name="venue_i_choose">Venues I Choose</string>
+    <string name="venue_name_1">Venue Name 1</string>
+    <string name="venue_name_2">Venue Name 2</string>
+    <string name="venue_name_3">Venue Name 3</string>
+    <string name="venue_name_4">Venue Name 4</string>
+    <string name="venue_name_5">Venue Name 5</string>
+    <string name="venue_name_6">Venue Name 6</string>
+    <string name="bar_title">Bar Name</string>
+    <string name="bar_address">Bar Address</string>
+    <string name="bar_contact_number">(012) 345-67890</string>
+    <string name="offer_title">Offer</string>
+    <string name="current_offer_title">CURRENT TIPS</string>
+    <string name="bar_offer_name">Buy 1 get 1 Beer Free!</string>
+    <string name="offer_start_title">START</string>
+    <string name="offer_start_date">12:00PM 06/25/12</string>
+    <string name="offer_end_title">End</string>
+    <string name="offer_end_date">08:00PM 06/25/12</string>
+    <string name="claim_deal_title">Claim Deal</string>
+    <string name="show_bartender_title">Show me to Bartender</string>
+    <string name="bar_name">Storm Bar</string>
+    <string name="redeem_with_bartender">Redeem With Bartender or Server.</string>
+    <string name="vendor_use_title">For vendor use only.</string>
+    <string name="full_name_title">Full Name</string>
+    <string name="message_title">Message</string>
+    <string name="tap_to_enter">Tap here to enter</string>
+    <string name="edit_title">Edit</string>
+    <string name="done_title">Done</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send_title">Send</string>
+    <string name="provide_user_name_title">Please provide your Username/Email here to reset password.</string>
+    <string name="user_name_email">Username/Email</string>
+    <string name="the_loop_title">The Loop</string>
+    <string name="map_title">Map</string>
+    <string name="following_title">Travel Log</string>
+    <string name="deals_title">My Deals</string>
+    <string name="my_deals_title">My Deals</string>
+    <string name="sign_in_title">Sign In</string>
+    <string name="forgot_password_title">Forgot Password?</string>
+    <string name="password_strong_title">Password (minimum 6 characters)</string>
+    <string name="confirm_password_title">Confirm Password</string>
+    <string name="see_our_terms">See Our Terms</string>
+    <string name="start_browsing_title">Start Browsing</string>
+    <string name="create_profile_title">Create a Profile</string>
+    <string name="deal_saved_to_my_deals">This deal has been saved to\nMy Deals</string>
+    <string name="thanks_title">Thanks</string>
+    <string name="go_to_bar_page">Go to Bar Page</string>
+    <string name="male_title">Male</string>
+    <string name="female_title">Female</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="join">Join</string>
+    <string name="accept_terms">Accept</string>
+    <string name="decline_terms">Decline</string>
+    <string name="close_terms">Close</string>
+    <string name="empty_user_name">User name is empty</string>
+    <string name="empty_email">Email is empty</string>
+    <string name="email_format_invalid">Email format is invalid</string>
+    <string name="empty_password">Password is empty</string>
+    <string name="password_low_length">Password should contain minimum 6 characters</string>
+    <string name="confirm_password_mismatch">Confirm password did not match</string>
+    <string name="password_changed_message">Password has been changed successfully!</string>
+    <string name="empty_location">Location is empty</string>
+    <string name="user_already_exists">User Name already exists!</string>
+    <string name="choose_gender">Please Select Gender</string>
+    <string name="thanks_for_registering">Thanks for registering with us!</string>
+    <string name="no_internet_available">Internet is not available</string>
+    <string name="dialog_button_dismiss">Dismiss</string>
+    <string name="blank_space_in_user_name">User name should not contain blank spaces</string>
+    <string name="turn_on_location_services_message">Do you want to turn on location services?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="turn_on_location_services_title">Location Services</string>
+    <string name="location_service_error">There seems to be a problem.\nPlease reset your Location Services.</string>
+    <string name="email_already_exists">Email already exists!</string>
+    <string name="video_error">Cannot Play the video due to low resolution</string>
+    <string name="unable_to_load_map">Unable to load the map!</string>
+    <string name="map_current_location_title">You are here!</string>
+    <string name="calender_entry_created">Calender entry added!</string>
+    <string name="map_app_not_found">Google map is not installed in this device</string>
+    <string name="unknown_webservice_error">An unknown error occured.\nPlease check your Internet and try again.</string>
+    <string name="loop_forum_title">Forum</string>
+    <string name="forum_post_title">Post</string>
+    <string name="forum_post_hint">Tap to add post</string>
+    <string name="forum_comment_title">Comments</string>
+    <string name="comment_days_ago"> day ago</string>
+    <string name="comment_mins_ago"> min ago</string>
+    <string name="comment_hrs_ago"> hr ago</string>
+    <string name="comment_just_now"> just now</string>
+
+    <color name="blue">#33b5e5</color>
+
+    <string name="attachment_dialog_title">Send Image</string>
+    <string name="attachment_take_photo_title">Take Photo</string>
+    <string name="attachment_choose_photo_title">Choose Existing Photo</string>
+    <string name="attachment_dialog_cancel">Cancel</string>
+    <string name="sign_in_alert">First sign in to use all the features.</string>
+    <string name="choose_image_using">Select image using</string>
+    <string name="offer_details_title">Offer</string>
+    <string name="my_deals_text">My Deals</string>
+    <string name="start_txt">START</string>
+    <string name="end_txt">END</string>
+    <string name="deal_saved_title">This deal has been added to \n My Deals</string>
+    <string name="go_to_bar_title">Go to the Bar</string>
+    <string name="message_cant_empty">Message can not be empty</string>
+    <string name="contact_atn_response">Your message was sent successfully !</string>
+    <string name="gcm_send_error">Send error: </string>
+    <string name="gcm_deleted_message">Deleted messages on server: </string>
+    <string name="recover_password_response">Password has been sent to your email address.</string>
+    <string name="logout_from_instagram">Are you sure to logout from Instagram?</string>
+    <string name="instagram_auth_failed">Authorization failed.Please try again.</string>
+    <string name="logging_in">Logging in...</string>
+    <string name="deal_already_added_title">Deal already Added </string>
+    <string name="gender_dialog_title">Select Gender</string>
+    <string name="save_title">Save</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="old_password_title">Old Password</string>
+    <string name="new_password_title">New Password</string>
+    <string name="empty_old_password">Old password is empty.</string>
+    <string name="empty_new_password">New password is empty.</string>
+    <string name="login_to_use_all_features">You should be logged-in to use all the features.</string>
+    <string name="direction_title">Find Directions</string>
+    <string name="out_of_app_alert">This action will take you out of Anchor.</string>
+    <string name="logout_title">Logout</string>
+    <string name="logout_alert_message">Are you sure to logout?</string>
+    <string name="call_title">Call</string>
+    <string name="app_id">1488670718028364</string>
+    <string name="forum_comment_hint_text">Tap to add comment</string>
+    <string name="logout_from_facebook">Are you sure to logout from Facebook?</string>
+    <string name="profile_updated_message">Your profile has been updated!</string>
+    <string name="thanks_deals_added_title">Thanks !</string>
+    <string name="coupon_expire_title">Coupon will expire in </string>
+    <string name="instagram_error_getting_user_name">Failed to get user information!</string>
+    <string name="connect_title">Connect</string>
+    <string name="unsubscribe_atn_venue">Are you sure to unsubscribe to this venue?</string>
+    <string name="unsubsribe_all_atn_venue">Are you sure to unsubscribe to all venues?</string>
+    <string name="subscribe_atn_venue">You have been subscibred to Anchor venue!</string>
+    <string name="subscibe_all_atn_venue">You have been subscribed to all Anchor venues!</string>
+    <string name="envelope_animation_title">Open Envelope on Deal\'s Loaction Only. </string>
+    <string name="claim_location_title">Could not validate Deal\'s Location </string>
+    <string name="slide_to_redeem">Slide to Redeem</string>
+    <string name="coupon_redeemed">Coupon Redeemed</string>
+    <string name="coupon_expired">Coupon Expired</string>
+    <string name="are_you_bartender">Are you a bartender or server?</string>
+    <string name="view_coupon">View Coupon</string>
+    <string name="venue_already_added">Venue already added to Travel Log list.</string>
+    <string name="venue_shared_on_wall">Venue details has been shared on your Facebook wall!</string>
+    <string name="delete_title">Delete?</string>
+    <string name="delete_from_following_message">Are you sure to delete this venue from travel log list?</string>
+    <string name="refreshing_forum">Refreshing forum list...</string>
+    <string name="refreshing_promotion">Refreshing promotions list...</string>
+    <string name="share_title">Share</string>
+    <string name="share_on_facebook">Do you want to share the venue details on your Facebook wall?</string>
+    <string name="insta_image_loading_message">Please wait while Instagram photos are loading. This can take up to a minute...</string>
+    <string name="no_venue_found_msg">Sorry! No Venues found in the vicinity.\nPlease Try Again.</string>
+    <string name="contact_title">Contact Anchor</string>
+    <string name="no_media_found_title">No media found</string>
+    <string name="no_media_found_message">No media found for this location.</string>
+    <string name="redeem_confirmation_message">Congratulations! You\'ve just redeemed your first offer. We\'ll see you back for many more!</string>
+    <string name="btn_okay">Okay</string>
+    <string name="following_blank_text">Anchor is your guide to adventures worldwide. Keep your journey alive by adding places to your Travel Log.</string>
+    <string name="deal_blank_text">You haven\'t added any deal yet.</string>
+    <string name="loading_text">Loading...</string>
+    <string name="terms_and_condition">See Our Terms</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="login_button">Login</string>
+    <string name="instgram_login_message">Cool right!? Please login to\nInstagram to get the freshest local\nphotos!</string>
+    <string name="four_square_done_btn">Done</string>
+
+    <!-- Progress Dialog String -->
+    <string name="please_wait">Please wait...</string>
+    <string name="redeeding_coupon">Redeeming Coupon</string>
+    <string name="expire_coupon">Coupon Expired</string>
+    <string name="sharing_on_fb">Sharing on facebook</string>
+    <string name="contact_dialog_message">There are no venues nearby!\nContact Anchor to let us know</string>
+    <string name="contact_dialog_contact_btn">Contact</string>
+    <string name="contact_dialog_cancel_btn">Cancel</string>
+
+    <!-- Screen Name For GA -->
+    <string name="screen_name_account">Account</string>
+    <string name="screen_name_Contact">Contact</string>
+    <string name="screen_name_coupon_enveleop">CouponEnvelope</string>
+    <string name="screen_name_account_detail">Account Detail</string>
+    <string name="screen_name_user_favorite">User Favorites</string>
+    <string name="screen_name_ig_location_detail">Image Gallary</string>
+    <string name="screen_name_search_result">Search Result</string>
+    <string name="screen_name_login">Login</string>
+    <string name="screen_name_manual_sign_in">Manual Login</string>
+    <string name="screen_name_map">Map</string>
+    <string name="screen_name_my_deals">User Deals</string>
+    <string name="screen_name_forum_attachment">Forum Full Image</string>
+    <string name="screen_name_forums">Forum</string>
+    <string name="screen_name_forum_comment">Forum Comment</string>
+    <string name="screen_name_venue_detail_offer">Venue Offer</string>
+    <string name="screen_name_bar_detail">Venue Profile</string>
+    <string name="screen_name_sign_up">Sign Up</string>
+    <string name="screen_name_the_loop">The Loop</string>
+    <string name="search_menu_item_title">Search</string>
+    <string name="refresh_menu_item_title">Refresh</string>
+    <string name="favorite_menu_item">favorite</string>
+    <string name="bar_detail">Bar detail</string>
+    <string name="share_bar">Share</string>
+
+    <!-- Description of the icon that opens the navigation drawer, used by accessibility. -->
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <!-- Description of the icon that closes the navigation drawer, used by accessibility. -->
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="left_menu_items">
+        <item>Map</item>
+        <item>The Loop</item>
+        <item>Following</item>
+        <item>My Deals</item>
+        <item>Account</item>
+        <item>Review Venues</item>
+    </string-array>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="location_changed_alert">your location has been changed.\nDo you want to refresh venues?</string>
+
+    <string-array name="filter_option">
+        <item>All</item>
+        <item>Travel &amp; Transport</item>
+        <item>Outdoors &amp; recreation</item>
+        <item>Nightlife Spot</item>
+        <item>Food</item>
+        <item>Event</item>
+        <item>Arts &amp; Entertainment</item>
+    </string-array>
+
+    <string name="connect_text">Connect</string>
+    <string name="search_hint">Search Venues</string>
+
+    <!-- ANCHOR APP Strings -->
+    <string name="app_name">Anchor</string>
+    <string name="hint_user_name">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="login_button_title">LOG IN</string>
+    <string name="forgot_password_text">forgot password?</string>
+    <string name="new_user_text">New User?</string>
+    <string name="create_account_text">Create Account</string>
+    <string name="start_browsing_text">Start Browsing</string>
+    <string name="or_text">Or</string>
+    <string name="done_button_title">DONE</string>
+    <string name="forgot_pass_title">FORGOT PASSWORD</string>
+    <string name="email_address_hint">Email</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="profile_photo_title">Profile Photo</string>
+
+    <string-array name="gallary_camera_array">
+        <item>Upload from gallary</item>
+        <item>Camera</item>
+    </string-array>
+    <string-array name="gallary_camera_remove_array">
+        <item>Upload from gallary</item>
+        <item>Camera</item>
+        <item>Remove Photo</item>
+    </string-array>
+
+    <!-- crop strings -->
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel">CANCEL</string>
+
+    <!-- Select Interest Screen -->
+    <string name="tell_us_abt_interest">What can we help you find?</string>
+    <string name="interest_nightlife">NIGHTLIFE</string>
+    <string name="interest_livemusic">LIVE MUSIC</string>
+    <string name="interest_restautant">RESTAURANT</string>
+    <string name="interest_concert">CONCERT</string>
+    <string name="interest_travel_transport">TRAVEL &amp;\nTRANSPORT</string>
+    <string name="interest_done">DONE</string>
+
+    <!-- left menu strings -->
+    <string name="expore_text">EXPLORE</string>
+    <string name="happaning_now_text">HAPPENING NOW</string>
+    <string name="following_text">TRAVEL LOG</string>
+    <string name="tips_text">TIPS</string>
+    <string name="account_text">ACCOUNT</string>
+    <string name="my_interest_text_menu">MY INTEREST</string>
+    <string name="add_photo_text">ADD PHOTO</string>
+    <string name="add_review_text">ADD REVIEW</string>
+    <string name="search_venue_title">Search Venues</string>
+    <string name="happaning_now_text_screen">Happening Now</string>
+    <!-- map -->
+    <string name="filter_button_text">My Interests</string>
+
+    <!-- Veuue detail -->
+    <string name="add_review_button">ADD REVIEW</string>
+    <string name="do_u_like_this_place">DO YOU LIKE THIS PLACE</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+
+    <!-- ADD REVIEW -->
+    <string name="what_did_u_like_about_text">WHAT DID YOU LIKE ABOUT IT ?</string>
+    <string name="select_any_five_text">Select 5 tags</string>
+    <string name="comment_title">Comments</string>
+    <string name="add_comment_hint">Add a Comment</string>
+    <string name="close_button">Close</string>
+
+    <!-- Account mail -->
+    <string name="my_interest_text">My Interest</string>
+    <string name="push_notification_text">Push Notifications</string>
+    <string name="about_anchor_text">About Anchor</string>
+    <string name="contact_atn_title">Contact Anchor</string>
+    <string name="terms_and_conditions">Terms &amp; Conditions</string>
+    <string name="account_detail_title">Account Details</string>
+    <string name="near_by_places">NearBy Places</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="venue_distance">Distance %1$.1f mi</string>
+    <string name="help_text_add_review_part_1">\"A collaborative way to\nshare your experience.\"</string>
+    <string name="help_text_add_review_part_2">CLICKS\"</string>
+    <string name="help_text_add_photo">\"We value your content!\"</string>
+    <string name="max_review_limit_reached">You can only select 5 tags.</string>
+    <string name="contact_anchor_email_hint">Enter Your Email</string>
+    <string name="no_tips_in_this_vicinity">There are no local tips available at the moment.</string>
+    <string name="tap_to_load_more">Tap here to load more</string>
+
+    <!-- Ask For Login Dialog texts -->
+    <string name="login_button_text">Login</string>
+    <string name="not_now_Buttun_text">Not Now</string>
+    <string name="message_text">Please login to use this function</string>
+    
+    <!-- Ask For Remove Favorite Dialog texts -->
+    <string name="favorite_remove_text">Remove</string>
+    <string name="favorite_cancel_text">Cancel</string>
+    <string name="favorite__text">If you unfollow the venue you will stop receiving notifications for it.</string>
+    
+    <!--  -->
+    <string name="search_venue_label">Search Venues</string>
+    <string name="search_venue_hint">Search Venues </string>
+    <string name="search_invoke">App/Search/Invoke Search</string>
+    
+    <!-- Progress bar title -->
+    <string name="loggin_title">Logging in...</string>
+    
+    <!-- Category title  -->
+    <string name="category_search_or">Or</string>
+    <string name="category_search_and">And</string>
+    <string name="category_search_text">Get more specific \n i.e. Cafe, Brunch, Thi Park ect...</string>
+    <string name="category_search_hint">Search</string>
+    <string name="category_select_msg">Please select a category.</string>
+    
+    <!-- Happening Now  -->
+    <string name="happening_now_most_recent">Most recent</string>
+	<string name="happening_now_near_by">Near by</string>
+	<string name="happening_now_no_venue_found">No results found. Please try again later.</string>
+	
+	
+</resources>

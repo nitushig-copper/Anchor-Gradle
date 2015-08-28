@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/interest_button"
+        android:layout_width="@dimen/interest_circle_size"
+        android:layout_height="@dimen/interest_circle_size"
+        android:background="@drawable/interest_button_selector"
+        android:src="@drawable/icn_interest_concert" />
+
+    <com.atn.app.component.MyTextView
+        android:id="@+id/interest_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/interest_restautant"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

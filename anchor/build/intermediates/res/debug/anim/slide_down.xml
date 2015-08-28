@@ -1,0 +1,5 @@
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="300"
+    android:fromYDelta="0"
+    android:toYDelta="75%p" />
+<!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/anim/slide_down.xml -->

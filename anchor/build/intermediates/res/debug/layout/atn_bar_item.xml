@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/atn_map_pin_width"
+    android:layout_height="@dimen/atn_map_pin_height"
+    android:background="@drawable/icn_locationmarker" >
+
+    <ImageView
+        android:id="@+id/img_atn_bar_image"
+        android:layout_width="@dimen/atn_bar_image_size"
+        android:layout_height="@dimen/atn_bar_image_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/app_icon_map"
+        android:visibility="visible" />
+
+</FrameLayout><!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/atn_bar_item.xml -->

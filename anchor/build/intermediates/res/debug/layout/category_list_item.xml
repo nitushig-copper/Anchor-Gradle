@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:checkMark="@drawable/check_mark_selector"
+    android:checked="true"
+    android:padding="10dp"
+    android:textAllCaps="true"
+    android:gravity="center_vertical" />
+<!-- From: file:/E:/yadavendra/IDE/Android/workspace/Demo_new/anchor/src/main/res/layout/category_list_item.xml -->

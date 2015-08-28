@@ -1,0 +1,29 @@
+!SESSION 2015-05-11 12:09:06.584 -----------------------------------------------
+eclipse.buildId=v22.0.5-757759
+java.version=1.7.0_71
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -data E:\yadavendra\IDE\Android\workspace\Demo_new -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-05-11 12:09:11.932
+!MESSAGE --- Workbench plugin started. ---
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-05-11 12:09:11.940
+!MESSAGE --- Crashlytics Updater Plugin is starting ---
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 1 0 2015-05-11 12:09:11.943
+!MESSAGE Starting com.crashlytics.tools.eclipse.updater(1.6.0.201404171529) with location: E:/yadavendra/IDE/Android/adt_bundle/eclipse/configuration/
+	 Managed plugins version: 0.0.0
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-05-11 12:09:12.460
+!MESSAGE  OsgiBootstrapper - Installing 5 bundles from E:\yadavendra\IDE\Android\workspace\Demo_new\.metadata\.plugins\com.crashlytics.tools.eclipse.workbench\.crashlytics_data\.bundles...
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-05-11 12:09:12.548
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.app_1.6.0.201404171529 [1474]
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-05-11 12:09:12.981
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.core_1.6.0.201404171529 [1475]
+
+!ENTRY com.crashlytics.tools.eclipse.workbench 0 0 2015-05-11 12:09:13.940
+!MESSAGE  OsgiBootstrapper - Starting OSGi bundle com.crashlytics.tools.eclipse.exporter_1.6.0.201404171529 [1476]

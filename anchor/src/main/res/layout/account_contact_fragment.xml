@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.atn.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/anchor_app_bg"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize" >
+
+    <com.atn.app.component.REditText
+        android:id="@+id/txt_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="@string/full_name_title"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColorHint="@color/text_light_grey"
+        custom:customFont="robotoMedium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_height"
+        android:background="@color/list_view_divider" />
+
+    <com.atn.app.component.REditText
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="@string/contact_anchor_email_hint"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:textColorHint="@color/text_light_grey"
+        custom:customFont="robotoMedium" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/seperator_height"
+        android:background="@color/list_view_divider" />
+
+    <com.atn.app.component.REditText
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal|left"
+        android:hint="@string/message_title"
+        android:padding="15dp"
+        android:textColorHint="@color/text_light_grey"
+        custom:customFont="robotoMedium" />
+
+</LinearLayout>

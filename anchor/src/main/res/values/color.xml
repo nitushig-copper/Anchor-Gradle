@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="orange">#FF6600</color>
+    <color name="purple">#9933CC</color>
+    <color name="text_dark_grey">#4e5153</color>
+    <color name="text_light_grey">#44000000</color>
+    <color name="text_current_offer_color">#7b7f85</color>
+    <color name="text_phone_color">#5f6163</color>
+    <color name="text_bar_name_color">#858690</color>
+    <color name="color_user_screen_separator"> #d7d7d7</color>
+    <color name="color_user_screen_hint">#666666</color>
+    <color name="color_blue">#33b5e5</color>
+    <color name="color_grey">#dcdcdc</color>
+    <color name="color_hint_tap_to_add_post">#220f0f0f</color>
+    <color name="color_inactive_tab_text">#929292</color>
+    <color name="color_forum_light_text">#838790</color>
+    <color name="vendor_title_color">#FF0000</color>
+    <color name="color_gallery_view_dark">#282828</color>
+    <color name="light_grey">#11000000</color>
+    <color name="dark_grey">#66000000</color>
+    <color name="color_bg_light">#dfe6ea</color>
+    <color name="color_bg_bar">#e7e7e7</color>
+    <color name="grid_state_pressed">#aa33b5e5</color>
+    <color name="grid_state_focused">#80000000</color>
+
+    <drawable name="progres_bar">#0000ff</drawable>
+    <drawable name="app_bg_light_grey">#dfe6ea</drawable>
+    <drawable name="search_row_normal">#ffffff</drawable>
+    <drawable name="search_row_pressed">#ff0000</drawable>
+    <drawable name="instgram_dialog_bg">#00000000</drawable>
+
+    <color name="black_divider">#bb000000</color>
+    <color name="transparent_color">#00000000</color>
+
+    <!-- Loader Colors -->
+    <color name="color1">#4AC986</color>
+    <color name="color2">#1D8AB2</color>
+
+    <!-- Anchor app colors -->
+    <drawable name="white_bg">#FFFFFF</drawable>
+    <drawable name="alpha_white_bg">#AAFFFFFF</drawable>
+    <drawable name="light_green">#57ccbd</drawable>
+    <drawable name="alpha_light_green">#AA57ccbd</drawable>
+
+    <color name="or_color">#015754</color>
+    <color name="light_green_color">#57ccbd</color>
+
+    <drawable name="back_button_normal">#43ca84</drawable>
+    <drawable name="back_button_pressed">#AA43ca84</drawable>
+
+    <!-- Crop Image -->
+    <color name="crop__button_bar">#f3f3f3</color>
+    <color name="crop__button_text">#666666</color>
+    <color name="crop__selector_pressed">#1a000000</color>
+    <color name="crop__selector_focused">#77000000</color>
+
+    <drawable name="interest_overlay_color">#aa43c984</drawable>
+
+    <!-- menu colors -->
+    <drawable name="menu_button_pressed">#F2F2F2</drawable>
+    <drawable name="menu_button_unpressed">#ffffff</drawable>
+
+    <!-- map -->
+    <color name="filter_bg">#EE1D8AB2</color>
+    <color name="light_green_text_color">#48C986</color>
+    <color name="action_bar_bg_color">#48C986</color>
+
+    <drawable name="blue_bg">#1D8AB2</drawable>
+    <drawable name="blue_dissable_bg">#BBD2D7</drawable>
+    			
+    
+
+    <color name="blue_color">#0000FF</color>
+    <color name="tag_unselected">#C8EBFE</color>
+    <color name="tag_selected">#68B7FD</color>
+    <color name="tag_text_color">#2C4C68</color>
+    <color name="list_view_divider">#e2e2e2</color>
+    <color name="comment_edit_text_bg">#E3E3E3</color>
+    <color name="comment_bg">#EFEFEF</color>
+
+    <drawable name="tips_row_bg">#F6F6F6</drawable>
+    <drawable name="tips_row_bg_pressed">#88FF0000 </drawable>
+    <drawable name="bar_row_bg_pressed">#AAC0C0C0 </drawable>
+
+    <color name="account_row_bg">#FFFFFF</color>
+    <color name="anchor_app_bg">#EFEFEF</color>
+
+    <drawable name="transparent">#00000000 </drawable>
+    <color name="help_window_bg">#AA000000</color>
+    
+    
+    <!-- For lollipop design -->
+    <color name="primary">#48C986</color>
+    <color name="primary_dark">#2aa063</color>
+    <color name="accent">#48C986</color>
+
+</resources>
